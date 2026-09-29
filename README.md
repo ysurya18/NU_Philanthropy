@@ -19,7 +19,7 @@ Working in a 4-person team, I led the predictive modeling and feature engineerin
 ### Model Performance:
 * 37.7% capture rate in top 1% tier (3,182 donors)—gift officers could focus on just 1% of constituents and reach nearly 40% of all likely planned gift prospects
 * 67% capture rate in top 5% tier (15,910 donors)—maintained strong performance across mid-level cultivation pipeline
-* 377x improvement in efficiency compared to random selection at the top tier
+* 37.7x lift over random selection at the top tier (random targeting of 1% of constituents would capture about 1% of prospects)
 ### Business Impact:
 * Reduced outreach volume by 90% while capturing 75% of likely prospects through targeted top-10% strategy
 * Created actionable three-tier segmentation framework with cultivation strategies tailored to each likelihood level
