@@ -1,4 +1,9 @@
-# Donor-Propensity-Modeling-Strategic-Segmentation
+# Donor Propensity Modeling & Strategic Segmentation
+
+Graduate team capstone (Sep–Dec 2025) for Northeastern University Advancement: ranking 318,000+ constituents by their likelihood of making a $100K+ planned gift, where only 0.1% had one.
+
+**Full case study:** [ysurya18.github.io/projects/propensity-model.html](https://ysurya18.github.io/projects/propensity-model.html)
+
 ## The Challenge
 Northeastern University's Advancement team faced a critical problem: identifying which donors were most likely to make planned gifts of $100,000 or more. With only 0.1% of their 318,000+ constituents having established planned gifts, the existing approach—relying on officer intuition and manual review—wasn't scalable. They needed a data-driven framework to prioritize cultivation efforts and focus limited resources on the highest-potential prospects.
 ## Our Approach
@@ -38,3 +43,16 @@ We translated our model insights into operational recommendations for University
 This project reinforced the importance of understanding business context when selecting models. While LightGBM had better global performance (PR-AUC of 0.327 vs. 0.051), XGBoost delivered superior results where it actually mattered—the top 1-5% of prospects where Advancement concentrates cultivation resources. The "best" model on paper isn't always the best model for the business problem.
 I also gained experience navigating messy real-world data. Rather than forcing demographic imputation that would introduce bias, we identified correlated behavioral signals that captured the same underlying patterns. This principled approach to missing data handling was crucial to model reliability.
 ## Tools & Technologies: Python, XGBoost, LightGBM, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+
+## Repository contents
+
+| File | What it is |
+|---|---|
+| `XGBoost.py` | Selected operational model, with interaction and quadratic features |
+| `Light_gbm.py` | LightGBM comparison model |
+| `Logistic_Regression.py` | Interpretable baseline |
+| `Team 2-NU Philanthropy-Report.pdf` | Final report |
+| `Team 2-NU Philanthropy-Presentation.pdf` | Final presentation |
+| `Project description.docx` | Original project brief from University Advancement |
+
+The constituent data was provided by University Advancement and is not included in this repository.
